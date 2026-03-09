@@ -74,13 +74,15 @@ A minimal, ultra-premium productivity dashboard with glassmorphism aesthetics, h
 <details>
 <summary>🎥 Click to see video preview</summary>
 
-[![Dashboard-Zen](images/Dashboard-Zen.mp4)](images/Dashboard-Zen.mp4)
+[![Dashboard-Zen](images/Dashboard-Zen.mp4)](https://github.com/user-attachments/assets/ed2e24b5-0b84-436e-ba82-c93b132ac0df)
 
 </details>
 
 ---
 
 ## 🚀 More Coming Soon!
+
+
 
 
 
