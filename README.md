@@ -28,6 +28,7 @@ This repository is dedicated to sharing beautiful and functional Obsidian dashbo
 ## 📋 Table of Contents
 
 - [1. 💻 Brutalist Home Dashboard](#1--brutalist-home-dashboard)
+- [2. 🧘 Zen Home Dashboard](#2--zen-home-dashboard)
 
 ---
 
@@ -49,14 +50,40 @@ A bold, brutalist-style dashboard with vibrant colors, weather widget, clock, an
 <details>
 <summary>🎥 Click to see video preview</summary>
 
-[![Dashboard-Brutalist](images/Dashboard-Brutalist.mp4)](https://github.com/user-attachments/assets/f1a80f93-8bb6-4fbd-b2ef-7e1eacb59344
-)
+[![Dashboard-Brutalist](images/Dashboard-Brutalist.mp4)](https://github.com/user-attachments/assets/f1a80f93-8bb6-4fbd-b2ef-7e1eacb59344)
+
+</details>
+
+---
+
+## 2. 🧘 Zen Home Dashboard
+
+<div align="center">
+
+![Dashboard-Zen](images/Dashboard-Zen.jpeg)
+
+<p><strong>Author:</strong> <a href="https://github.com/Inlitx">Inlitx</a></p>
+
+</div>
+
+A minimal, ultra-premium productivity dashboard with glassmorphism aesthetics, habit tracking, task pipeline with scroll, and full banner customization. Designed to feel like a personal OS — clean, fast, and beautiful.
+
+**Required plugins:**
+· Dataview (with JavaScript enabled)
+
+<details>
+<summary>🎥 Click to see video preview</summary>
+
+[![Dashboard-Zen](images/Dashboard-Zen.mp4)](images/Dashboard-Zen.mp4)
 
 </details>
 
 ---
 
 ## 🚀 More Coming Soon!
+
+
+
 
 Coming soon I'll be uploading more dashboards with different styles and functionalities. Stay tuned!
 
