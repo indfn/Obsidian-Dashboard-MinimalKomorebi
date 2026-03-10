@@ -1,0 +1,584 @@
+/* 
+   Dashboard-Zen-OS.css
+   Designed by InlitX
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;700&display=swap');
+
+:root {
+    --zos-bg: var(--background-primary);
+    --zos-card-bg: var(--background-secondary-alt);
+    --zos-accent: var(--interactive-accent);
+    --zos-accent-rgb: 99, 102, 241;
+    --zos-text-muted: var(--text-muted);
+    --zos-border-radius: 28px;
+    --zos-spacing: 32px;
+    --zos-glass: rgba(255, 255, 255, 0.03);
+    --zos-border: 1px solid rgba(var(--mono-rgb-100), 0.08);
+    --zos-shadow: 0 20px 50px -12px rgba(0, 0, 0, 0.25);
+
+    /* Typo */
+    --zos-font-main: 'Outfit', sans-serif;
+    --zos-font-ser: 'Instrument Serif', serif;
+    --zos-font-mono: 'JetBrains Mono', monospace;
+}
+
+/* Base Styles */
+.zos-dashboard {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: var(--zos-spacing);
+    font-family: var(--zos-font-main);
+    color: var(--text-normal);
+}
+
+/* Glass Header */
+.zos-header {
+    background: var(--zos-glass);
+    backdrop-filter: blur(25px);
+    border-radius: var(--zos-border-radius);
+    padding: 30px;
+    border: var(--zos-border);
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.zos-header::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    height: 300px;
+    background: radial-gradient(circle, var(--zos-accent-rgb), transparent 70%);
+    opacity: 0.1;
+    transform: translate(100px, 100px);
+}
+
+.zos-hero-text {
+    flex-grow: 1;
+}
+
+/* Banner Settings Button — same feel as pipeline ⚙️ */
+.zos-banner-settings-btn {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    cursor: pointer;
+    opacity: 0.4;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-normal);
+    z-index: 10;
+}
+
+.zos-banner-settings-btn:hover {
+    opacity: 1;
+    color: var(--zos-accent);
+}
+
+.zos-banner-settings-btn svg {
+    width: 18px;
+    height: 18px;
+}
+
+.zos-hero-text h1 {
+    font-family: var(--zos-font-ser);
+    font-size: 8em !important;
+    font-weight: 800;
+    margin: 0;
+    line-height: 0.9;
+    letter-spacing: -4px;
+    background: linear-gradient(135deg, var(--text-normal) 0%, var(--zos-accent) 150%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: block;
+}
+
+.zos-greeting-text {
+    font-size: 3em !important;
+    font-weight: 700;
+    margin-top: 20px;
+    opacity: 1;
+    display: block;
+}
+
+.zos-hero-stats {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.zos-stat-cube {
+    text-align: right;
+    padding: 10px 20px;
+    background: rgba(var(--mono-rgb-100), 0.03);
+    border-radius: 18px;
+    border: var(--zos-border);
+    min-width: 120px;
+}
+
+.zos-stat-val {
+    font-size: 2em;
+    font-weight: 700;
+    color: var(--zos-accent);
+}
+
+.zos-stat-lab {
+    font-size: 0.7em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    opacity: 0.5;
+}
+
+/* Main Content Grid */
+.zos-grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: var(--zos-spacing);
+}
+
+/* Bento Modules */
+.zos-card {
+    background: var(--zos-card-bg);
+    border-radius: var(--zos-border-radius);
+    padding: 30px;
+    border: var(--zos-border);
+    box-shadow: var(--zos-shadow);
+    transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.zos-card:hover {
+    transform: translateY(-10px);
+}
+
+.zos-card-title {
+    font-size: 0.8em;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--zos-text-muted);
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Specific Modules */
+.span-4 {
+    grid-column: span 4;
+}
+
+.span-8 {
+    grid-column: span 8;
+}
+
+.span-12 {
+    grid-column: span 12;
+}
+
+@media (max-width: 1100px) {
+
+    .span-4,
+    .span-8 {
+        grid-column: span 12;
+    }
+}
+
+/* Micro-Habits */
+.zos-habit-strip {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background: rgba(var(--mono-rgb-100), 0.03);
+    border-radius: 16px;
+    margin-bottom: 12px;
+}
+
+.zos-dot-grid {
+    display: flex;
+    gap: 6px;
+}
+
+.zos-dot {
+    width: 14px;
+    height: 14px;
+    border-radius: 4px;
+    background: var(--background-primary);
+    border: 1px solid var(--divider-color);
+    cursor: pointer;
+}
+
+.zos-dot.active {
+    background: #00ff88;
+    box-shadow: 0 0 15px rgba(0, 255, 136, 0.4);
+    border: none;
+}
+
+/* Intelligent Tasks */
+.zos-task-row {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 16px;
+    border-radius: 18px;
+    background: var(--background-primary);
+    margin-bottom: 12px;
+    border: 1px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.zos-task-row:hover {
+    border-color: var(--zos-accent);
+    background: var(--zos-card-bg);
+}
+
+.zos-task-check {
+    width: 20px;
+    height: 20px;
+    border-radius: 6px;
+    border: 2px solid var(--zos-accent);
+    cursor: pointer;
+}
+
+.zos-task-tag {
+    font-size: 0.7em;
+    padding: 4px 10px;
+    border-radius: 100px;
+    background: rgba(var(--zos-accent-rgb), 0.1);
+    color: var(--zos-accent);
+}
+
+/* Scrollable task list */
+.zos-task-scroll::-webkit-scrollbar,
+[style*="overflow-y: auto"]::-webkit-scrollbar {
+    width: 4px;
+}
+
+[style*="overflow-y: auto"]::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+[style*="overflow-y: auto"]::-webkit-scrollbar-thumb {
+    background: rgba(var(--zos-accent-rgb), 0.3);
+    border-radius: 4px;
+}
+
+[style*="overflow-y: auto"]::-webkit-scrollbar-thumb:hover {
+    background: var(--zos-accent);
+}
+
+/* Empty State / Hints */
+.zos-hint {
+    padding: 40px;
+    text-align: center;
+    background: rgba(var(--zos-accent-rgb), 0.05);
+    border-radius: 20px;
+    border: 1px dashed var(--zos-accent);
+    color: var(--zos-accent);
+    font-size: 0.9em;
+}
+
+/* Action Buttons Refinement */
+.zos-action-btn {
+    padding: 15px 10px;
+    border-radius: 20px;
+    background: var(--zos-glass);
+    border: var(--zos-border);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+    cursor: pointer;
+}
+
+.zos-action-btn:hover {
+    background: var(--zos-accent);
+    color: white;
+    transform: translateY(-5px);
+}
+
+/* Lucide Icon override for Action Buttons */
+.zos-action-btn svg {
+    width: 24px;
+    height: 24px;
+    color: var(--zos-accent);
+    transition: all 0.3s ease;
+}
+
+.zos-action-btn:hover svg {
+    color: white;
+    transform: scale(1.2);
+}
+
+/* Editable Habit Title */
+.zos-habit-title {
+    font-weight: 700;
+    font-size: 0.8em;
+    letter-spacing: 1px;
+    cursor: context-menu;
+    padding: 2px 5px;
+    border-radius: 4px;
+    transition: background 0.2s;
+}
+
+.zos-habit-title:hover {
+    background: rgba(var(--zos-accent-rgb), 0.1);
+}
+
+/* Refresh Icon */
+.zos-refresh-icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--zos-glass);
+    color: var(--zos-accent);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.zos-refresh-icon:hover {
+    background: var(--zos-accent);
+    color: white;
+    transform: rotate(180deg);
+}
+
+/* Animations */
+.animate-in {
+    animation: slideUp 0.8s ease backwards;
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Mood Tracker */
+.zos-mood-grid {
+    display: flex;
+    justify-content: space-around;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+.zos-mood-item {
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.zos-mood-item:hover {
+    transform: scale(1.3);
+}
+
+
+/* PIPELINE SETTINGS */
+.zos-task-source-indicator {
+    font-size: 0.6em;
+    padding: 2px 8px;
+    background: rgba(var(--zos-accent-rgb), 0.1);
+    color: var(--zos-accent);
+    border-radius: 6px;
+    font-weight: 700;
+}
+
+.zos-settings-btn {
+    cursor: pointer;
+    opacity: 0.4;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.zos-settings-btn:hover {
+    opacity: 1;
+    color: var(--zos-accent);
+}
+
+/* System Footer */
+.zos-footer {
+    grid-column: 1 / -1;
+    text-align: center;
+    margin-top: 60px;
+    opacity: 0.3;
+    font-family: var(--zos-font-mono);
+    font-size: 0.7em;
+    letter-spacing: 4px;
+}
+
+/* --- PREMIUM MODAL SYSTEM --- */
+.zos-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(10px);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: fadeIn 0.3s ease;
+}
+
+.zos-modal {
+    background: var(--zos-card-bg);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 24px;
+    padding: 30px;
+    width: 380px;
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.5);
+    animation: scaleIn 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.zos-modal-title {
+    font-size: 0.7em;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    opacity: 0.5;
+    margin-bottom: 20px;
+}
+
+
+.zos-modal-input {
+    width: 100%;
+    background: #1a1a1a !important;
+    /* Solid dark background to ensure contrast */
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 15px;
+    color: #ffffff !important;
+    font-family: var(--zos-font-main);
+    font-size: 1.1em;
+    outline: none;
+    margin-bottom: 25px;
+    display: block;
+}
+
+.zos-modal-select {
+    appearance: auto !important;
+    /* Use browser default for stability if custom is failing */
+    background: #1a1a1a !important;
+    color: white !important;
+}
+
+.zos-modal-select option {
+    background-color: #1a1a1a !important;
+    color: white !important;
+}
+
+.zos-title-badge {
+    font-size: 0.7em;
+    font-weight: 800;
+    color: var(--zos-accent);
+    background: rgba(var(--zos-accent-rgb), 0.1);
+    padding: 4px 12px;
+    border-radius: 8px;
+    letter-spacing: 1px;
+    border: 1px solid rgba(var(--zos-accent-rgb), 0.2);
+    text-transform: uppercase;
+}
+
+.zos-modal-input:focus {
+    border-color: var(--zos-accent);
+    background: rgba(var(--zos-accent-rgb), 0.1);
+}
+
+.zos-modal-btns {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+
+.zos-modal-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.zos-modal-btn {
+    padding: 12px;
+    border-radius: 12px;
+    font-weight: 700;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.2s ease;
+    border: none;
+}
+
+.zos-btn-save {
+    background: var(--zos-accent);
+    color: white;
+}
+
+.zos-btn-save:hover {
+    filter: brightness(1.2);
+    transform: translateY(-2px);
+}
+
+.zos-btn-cancel {
+    background: rgba(255, 255, 255, 0.05);
+    color: white;
+    opacity: 0.6;
+}
+
+.zos-btn-cancel:hover {
+    opacity: 1;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.zos-btn-delete {
+    background: rgba(255, 85, 85, 0.1);
+    color: #ff5555;
+    margin-top: 10px;
+    border: 1px solid rgba(255, 85, 85, 0.2);
+}
+
+.zos-btn-delete:hover {
+    background: #ff5555;
+    color: white;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes scaleIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9) translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+    }
+}
