@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![GitHub stars](https://img.shields.io/github/stars/InlitX/Obsidian-Dashboard-Gallery?style=social)](https://github.com/USERNAME/REPO-NAME/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/InlitX/Obsidian-Dashboard-Gallery?style=social)](https://github.com/InlitX/Obsidian-Dashboard-Gallery/stargazers)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Obsidian](https://img.shields.io/badge/Obsidian-999999?style=flat&logo=obsidian&logoColor=white)](https://obsidian.md/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
