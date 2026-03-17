@@ -5,6 +5,12 @@
 ![Banner](images/banner.png) 
 
 </div>
+
+<div align="center">
+
+[🇬🇧 **English**] &nbsp;|&nbsp; [🇪🇸 Español](./README_es.md) &nbsp;|&nbsp; [🇧🇷 Português](./README_pt.md) &nbsp;|&nbsp; [🌐 Web](https://obsidian.inlitx.xyz)
+
+</div>
 <div align="center">
 
 [![GitHub stars](https://img.shields.io/github/stars/InlitX/Obsidian-Dashboard-Gallery?style=social)](https://github.com/InlitX/Obsidian-Dashboard-Gallery/stargazers)
