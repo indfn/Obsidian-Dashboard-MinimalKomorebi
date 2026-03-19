@@ -8,7 +8,7 @@
 
 <div align="center">
 
-[🇬🇧 **English**] &nbsp;|&nbsp; [🇪🇸 Español](./README_es.md) &nbsp;|&nbsp; [🇧🇷 Português](./README_pt.md) &nbsp;|&nbsp; [🌐 Web](https://obsidian.inlitx.xyz)
+[🇬🇧 **English**] &nbsp;|&nbsp; [🇪🇸 Español](./docs/README_es.md) &nbsp;|&nbsp; [🇧🇷 Português](./docs/README_pt.md) &nbsp;|&nbsp; [🌐 Web](https://obsidian.inlitx.xyz)
 
 </div>
 <div align="center">
@@ -47,7 +47,7 @@ This repository is dedicated to sharing beautiful and functional Obsidian dashbo
 
 <div align="center">
 
-![Dashboard-Brutalist](images/Dashboard-Brutalist.jpeg)
+![Dashboard-Brutalist](images/Brutalist/Dashboard-Brutalist.png)
 
 <p><strong>Author:</strong> <a href="https://github.com/Inlitx">Inlitx</a></p>
 
@@ -61,7 +61,7 @@ A bold, brutalist-style dashboard with vibrant colors, weather widget, clock, an
 <details>
 <summary>🎥 Click to see video preview</summary>
 
-[![Dashboard-Brutalist](images/Dashboard-Brutalist.mp4)](https://github.com/user-attachments/assets/f1a80f93-8bb6-4fbd-b2ef-7e1eacb59344)
+[![Dashboard-Brutalist](images/Brutalist/Dashboard-Brutalist.mp4)](https://github.com/user-attachments/assets/f1a80f93-8bb6-4fbd-b2ef-7e1eacb59344)
 
 </details>
 
@@ -71,7 +71,7 @@ A bold, brutalist-style dashboard with vibrant colors, weather widget, clock, an
 
 <div align="center">
 
-![Dashboard-Zen](images/Dashboard-Zen.jpeg)
+![Dashboard-Zen](images/Zen/Dashboard-Zen.png)
 
 <p><strong>Author:</strong> <a href="https://github.com/Inlitx">Inlitx</a></p>
 
@@ -85,7 +85,7 @@ A minimal, ultra-premium productivity dashboard with glassmorphism aesthetics, h
 <details>
 <summary>🎥 Click to see video preview</summary>
 
-[![Dashboard-Zen](images/Dashboard-Zen.mp4)](https://github.com/user-attachments/assets/ed2e24b5-0b84-436e-ba82-c93b132ac0df)
+[![Dashboard-Zen](images/Zen/Dashboard-Zen.mp4)](https://github.com/user-attachments/assets/ed2e24b5-0b84-436e-ba82-c93b132ac0df)
 
 </details>
 
