@@ -117,13 +117,15 @@ A nature-inspired dashboard with a soft, organic aesthetic. Clean layout, calm c
 <details>
 <summary>🎥 Click to see video preview</summary>
 
-[![Dashboard-Komorebi](images/Komorobi/komoribe.mp4)](https://github.com/user-attachments/assets/komoribe)
+[![Dashboard-Komorebi](images/Komorobi/komoribe.mp4)](https://github.com/user-attachments/assets/5463b91c-fffb-4f25-a5de-2580f7dbd925)
 
 </details>
 
 ---
 
 ## 🚀 More Coming Soon!
+
+
 
 
 
