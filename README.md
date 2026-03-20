@@ -40,6 +40,7 @@ This repository is dedicated to sharing beautiful and functional Obsidian dashbo
 
 - [1. 💻 Brutalist Home Dashboard](#1--brutalist-home-dashboard)
 - [2. 🧘 Zen Home Dashboard](#2--zen-home-dashboard)
+- [3. 🌿 Komorebi Home Dashboard](#3--komorebi-home-dashboard)
 
 ---
 
@@ -57,6 +58,9 @@ A bold, brutalist-style dashboard with vibrant colors, weather widget, clock, an
 
 **Required plugins:**
 · Dataview (with JavaScript enabled)
+
+**Required API:**
+· [OpenWeatherMap](https://openweathermap.org/api) (free API key needed for weather widget)
 
 <details>
 <summary>🎥 Click to see video preview</summary>
@@ -86,6 +90,34 @@ A minimal, ultra-premium productivity dashboard with glassmorphism aesthetics, h
 <summary>🎥 Click to see video preview</summary>
 
 [![Dashboard-Zen](images/Zen/Dashboard-Zen.mp4)](https://github.com/user-attachments/assets/ed2e24b5-0b84-436e-ba82-c93b132ac0df)
+
+</details>
+
+---
+
+## 3. 🌿 Komorebi Home Dashboard
+
+<div align="center">
+
+![Dashboard-Komorebi](images/Komorobi/komoribe.png)
+
+<p><strong>Author:</strong> <a href="https://github.com/Inlitx">Inlitx</a></p>
+
+</div>
+
+A nature-inspired dashboard with a soft, organic aesthetic. Clean layout, calm color palette and subtle details, designed for those who want a peaceful and distraction-free workspace.
+
+**Required plugins:**
+· Dataview (with JavaScript enabled)
+· QuickAdd *(optional)*
+
+**Required API:**
+· [OpenWeatherMap](https://openweathermap.org/api) (free API key needed for weather widget)
+
+<details>
+<summary>🎥 Click to see video preview</summary>
+
+[![Dashboard-Komorebi](images/Komorobi/komoribe.mp4)](https://github.com/user-attachments/assets/komoribe)
 
 </details>
 
