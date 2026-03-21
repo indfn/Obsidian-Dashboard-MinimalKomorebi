@@ -36,6 +36,7 @@ Este repositorio está dedicado a compartir dashboards de Obsidian hermosos y fu
 
 - [1. 💻 Dashboard Inicio Brutalista](#1--brutalist-home-dashboard)
 - [2. 🧘 Dashboard Inicio Zen](#2--zen-home-dashboard)
+- [3. 🌿 Dashboard Inicio Komorebi](#3--komorebi-home-dashboard)
 
 ---
 
@@ -53,6 +54,9 @@ Un dashboard de estilo brutalista con colores vibrantes, widget del clima, reloj
 
 **Plugins requeridos:**
 · Dataview (con JavaScript habilitado)
+
+**API requerida:**
+· [OpenWeatherMap](https://openweathermap.org/api) (se necesita una clave API gratuita para el widget del clima)
 
 <details>
 <summary>🎥 Haz clic para ver la vista previa en video</summary>
@@ -87,6 +91,34 @@ Un dashboard de productividad minimalista y premium con estética glassmorphism,
 
 ---
 
+## 3. 🌿 Dashboard Inicio Komorebi
+
+<div align="center">
+
+![Dashboard-Komorebi](../images/Komorobi/komoribe.png)
+
+<p><strong>Autor:</strong> <a href="https://github.com/Inlitx">Inlitx</a></p>
+
+</div>
+
+Un dashboard inspirado en la naturaleza con una estética suave y orgánica. Diseño limpio, paleta de colores tranquila y detalles sutiles, pensado para quienes buscan un espacio de trabajo sereno y sin distracciones.
+
+**Plugins requeridos:**
+· Dataview (con JavaScript habilitado)
+· QuickAdd *(opcional)*
+
+**API requerida:**
+· [OpenWeatherMap](https://openweathermap.org/api) (se necesita una clave API gratuita para el widget del clima)
+
+<details>
+<summary>🎥 Haz clic para ver la vista previa en video</summary>
+
+[![Dashboard-Komorebi](../images/Komorobi/komoribe.mp4)](https://github.com/user-attachments/assets/5463b91c-fffb-4f25-a5de-2580f7dbd925)
+
+</details>
+
+---
+
 ## 🚀 ¡Próximamente más dashboards!
 
 Pronto subiré más dashboards con diferentes estilos y funcionalidades. ¡Mantente atento!
@@ -100,3 +132,6 @@ Pronto subiré más dashboards con diferentes estilos y funcionalidades. ¡Mante
 Hecho con ❤️ para la comunidad de Obsidian
 
 </div>
+
+
+---
