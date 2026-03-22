@@ -6,12 +6,15 @@ Thanks for your interest in contributing! 🎉 This repository lives thanks to p
 
 ## 🎨 What can you create?
 
-If you're looking for inspiration, here are some examples of styles you could explore:
+You have complete creative freedom — any style, aesthetic, or concept is welcome. Here are some examples just to spark ideas:
+
 - **Brutalist** - Bold designs with thick borders and vibrant colors
 - **Minimalist** - Clean, elegant, with plenty of white space
 - **Cyberpunk** - Dark themes with neon and futuristic effects
-- **Nature-inspired** - - Organic colors, soft and natural shapes
-- **Retro/90s** - - Nostalgic styles with pastel colors and vintage effects
+- **Nature-inspired** - Organic colors, soft and natural shapes
+- **Retro/90s** - Nostalgic styles with pastel colors and vintage effects
+
+These are just examples — you are not limited to any of them. Create whatever you want. ✨
 
 ---
 
@@ -20,15 +23,19 @@ If you're looking for inspiration, here are some examples of styles you could ex
 Your dashboard must follow this naming convention:
 
 ```
-├── dashboard-your-dashboard-name.md    # # Dashboard markdown file
+├── dashboards/
+│   └── Dashboard-YourTitle.md         # Dashboard markdown file
 └── .obsidian/snippets/
-    └── dashboard-your-dashboard-name.css # CSS file (if applicable)
+    └── Dashboard-YourTitle.css        # CSS file (if applicable)
 ```
 
-**Important:** 
-- Use the prefix `dashboard-` followed by the name
+**Important:**
+- Use the prefix `Dashboard-` followed by the title you choose (capital D)
 - No spaces, use hyphens (`-`) to separate words
+- The `.md` file goes inside the `dashboards/` folder
 - If your dashboard requires CSS, place it in the `.obsidian/snippets/` folder
+
+> **Note:** Your GitHub username will be used to credit you as the author in the gallery.
 
 ---
 
@@ -41,38 +48,38 @@ Your dashboard must follow this naming convention:
 
 ### Step 2: Clone your forked repository
 ```bash
-git clone https://github.com/YOUR-USERNAME/YOUR-REPO.git
-cd YOUR-REPO
+git clone https://github.com/YOUR-USERNAME/Obsidian-Dashboard-Gallery.git
+cd Obsidian-Dashboard-Gallery
 ```
 
 ### Step 3: Add your files
-- Copy your `dashboard-your-dashboard-name.md` file to the root directory
-- If it has CSS, put `dashboard-your-dashboard-name.css` in `.obsidian/snippets/`
+- Copy your `Dashboard-YourTitle.md` file into the `dashboards/` folder
+- If it has CSS, put `Dashboard-YourTitle.css` in `.obsidian/snippets/`
 
-### Step 4: Make commit and push
+### Step 4: Commit and push
 ```bash
 git add .
-git commit -m "Add dashboard: Your Dashboard Name"
+git commit -m "Add dashboard: Your Dashboard Title"
 git push origin main
 ```
 
-### Step 5: Create Pull Request
-- Go to GitHub and click "New Pull Request"
-- Use a clear title: `Add dashboard: Your Dashboard Name`
-- In the description, include:
-  - **Plugins used**: List all Obsidian plugins your dashboard requires
-  - **Mini description**: Brief explanation of your dashboard's purpose and what makes it special
-  - Any special setup instructions or dependencies
+### Step 5: Create a Pull Request
+
+Use a clear title: `Add dashboard: Your Dashboard Title`
+
+A template will appear automatically with everything you need to fill in — description, plugins, APIs, and a checklist.
 
 ---
 
-## ✅ Requisitos básicos
+## ✅ Basic requirements
 
-The only requirements are:
 - [ ] It should be a beautiful dashboard with personality
 - [ ] It works correctly in Obsidian
+- [ ] The code is clean and well organized
 - [ ] It follows the correct file naming convention
-- [ ] Files are in the correct folders
+- [ ] Files are placed in the correct folders
+
+> Pull requests will only be accepted once all requirements are met and the dashboard has been tested and confirmed working.
 
 ---
 
