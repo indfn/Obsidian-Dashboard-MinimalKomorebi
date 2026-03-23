@@ -1,0 +1,53 @@
+name: 🐛 Bug Report
+description: Something isn't working as expected
+labels: ["bug"]
+body:
+
+  - type: dropdown
+    id: dashboard
+    attributes:
+      label: 🎨 Which dashboard?
+      options:
+        - Dashboard Brutalist
+        - Dashboard Zen
+        - Dashboard Komorebi
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: 📋 What's happening?
+      placeholder: Describe the bug briefly...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: ✅ What should happen?
+      placeholder: What did you expect to see?
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: 🔌 Dataview setup
+      options:
+        - label: Dataview is installed and enabled
+        - label: "Enable JavaScript Queries is ON (Dataview settings)"
+        - label: "Enable Inline JavaScript Queries is ON (Dataview settings)"
+
+  - type: input
+    id: theme
+    attributes:
+      label: 🖌️ Obsidian theme
+      placeholder: e.g. Default, Minimal, AnuPpuccin...
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: ➕ Anything else?
+      placeholder: Other plugins, CSS snippets, error messages...
