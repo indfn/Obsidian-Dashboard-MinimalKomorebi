@@ -1,0 +1,34 @@
+name: 💡 Dashboard Request
+description: Suggest a dashboard idea or style
+labels: ["enhancement"]
+body:
+
+  - type: textarea
+    id: idea
+    attributes:
+      label: 💡 What's your idea?
+      placeholder: Describe the style, vibe, or concept you'd like to see...
+    validations:
+      required: true
+
+  - type: textarea
+    id: references
+    attributes:
+      label: 🖼️ Visual references
+      placeholder: Links, images, or anything that inspires the idea...
+
+  - type: checkboxes
+    id: plugins
+    attributes:
+      label: 🔌 Plugins you'd be okay with
+      options:
+        - label: Dataview
+        - label: QuickAdd
+        - label: Templater
+        - label: Other (mention in the idea section)
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: ➕ Anything else?
+      placeholder: Extra details, color palettes, layout ideas...

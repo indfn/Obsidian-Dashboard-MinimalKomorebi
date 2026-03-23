@@ -1,0 +1,40 @@
+name: ❓ Question / Help
+description: Need help setting up or using a dashboard
+labels: ["question"]
+body:
+
+  - type: dropdown
+    id: dashboard
+    attributes:
+      label: 🎨 Which dashboard?
+      options:
+        - Dashboard Brutalist
+        - Dashboard Zen
+        - Dashboard Komorebi
+        - Other / General
+    validations:
+      required: true
+
+  - type: textarea
+    id: question
+    attributes:
+      label: ❓ What do you need help with?
+      placeholder: Describe your question or what you're trying to do...
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: ✅ Before asking — did you check?
+      options:
+        - label: I read the README
+        - label: Dataview is installed and enabled
+        - label: "Enable JavaScript Queries is ON (Dataview settings)"
+        - label: "Enable Inline JavaScript Queries is ON (Dataview settings)"
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: ➕ Anything else?
+      placeholder: Screenshots, error messages, your vault setup...
