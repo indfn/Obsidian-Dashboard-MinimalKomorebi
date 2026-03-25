@@ -8,7 +8,7 @@
 
 <div align="center">
 
-[🇬🇧 **English**] &nbsp;|&nbsp; [🇪🇸 Español](./docs/README_es.md) &nbsp;|&nbsp; [🇧🇷 Português](./docs/README_pt.md) &nbsp;|&nbsp; [🌐 Web](https://obsidian.inlitx.xyz)
+[🇬🇧 **English**] &nbsp;|&nbsp; [🇪🇸 Español](./docs/README_es.md) &nbsp;|&nbsp; [🇧🇷 Português](./docs/README_pt.md) &nbsp;|&nbsp; [🇨🇳 简体中文](./docs/README_zh.md) &nbsp;|&nbsp; [🌐 Web](https://obsidian.inlitx.xyz)
 
 </div>
 <div align="center">

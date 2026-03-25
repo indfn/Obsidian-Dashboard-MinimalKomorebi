@@ -8,7 +8,7 @@
 
 <div align="center">
 
-[🇬🇧 English](../README.md) &nbsp;|&nbsp; [🇪🇸 **Español**] &nbsp;|&nbsp; [🇧🇷 Português](./README_pt.md) &nbsp;|&nbsp; [🌐 Web](https://obsidian.inlitx.xyz)
+[🇬🇧 English](../README.md) &nbsp;|&nbsp; [🇪🇸 **Español**] &nbsp;|&nbsp; [🇧🇷 Português](./README_pt.md) &nbsp;|&nbsp; [🇨🇳 简体中文](./README_zh.md) &nbsp;|&nbsp; [🌐 Web](https://obsidian.inlitx.xyz)
 
 </div>
 <div align="center">
@@ -16,7 +16,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/InlitX/Obsidian-Dashboard-Gallery?style=social)](https://github.com/InlitX/Obsidian-Dashboard-Gallery/stargazers)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Obsidian](https://img.shields.io/badge/Obsidian-999999?style=flat&logo=obsidian&logoColor=white)](https://obsidian.md/)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](../CONTRIBUTING.md)
 
 **Dashboards hermosos y listos para usar en tu bóveda de Obsidian**
 
