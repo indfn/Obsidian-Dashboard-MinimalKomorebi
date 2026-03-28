@@ -127,7 +127,10 @@ Pronto subiré más dashboards con diferentes estilos y funcionalidades. ¡Mante
 
 <div align="center">
 
-**⭐ ¡Dale estrella a este repositorio si te parece útil!**
+**⭐ ¡Apoya este proyecto de la manera que puedas!**
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/J3J41W702I)
+<a href="https://github.com/InlitX/Obsidian-Dashboard-Gallery/stargazers"><img src="https://img.shields.io/github/stars/InlitX/Obsidian-Dashboard-Gallery?style=plastic&logo=github" alt="GitHub stars" width="140"></a>
 
 Hecho con ❤️ para la comunidad de Obsidian
 

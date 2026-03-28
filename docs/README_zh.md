@@ -131,7 +131,10 @@
 
 <div align="center">
 
-**⭐ 如果您觉得本项目有用，请给仓库点个星！**
+**⭐ 以任何方式支持本项目！**
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/J3J41W702I)
+<a href="https://github.com/InlitX/Obsidian-Dashboard-Gallery/stargazers"><img src="https://img.shields.io/github/stars/InlitX/Obsidian-Dashboard-Gallery?style=plastic&logo=github" alt="GitHub stars" width="140"></a>
 
 用 ❤️ 为 Obsidian 社区精心打造
 
