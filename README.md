@@ -123,6 +123,30 @@ A nature-inspired dashboard with a soft, organic aesthetic. Clean layout, calm c
 
 ---
 
+Komorebi+ Dashboard (Minimal Theme)
+
+<div align="center">
+
+![Dashboard-MinimalKomorebi](images/Minimal_Komorebi/MinimalKomorebi.png)
+
+</div>
+
+A minimal theme inspired dashboard with a soft aesthetic. Clean layout, calm color palette and subtle details, designed for a distraction-free workspace.
+Includes a Task management widget with inline task editing, quick add task via "+" button, multi-source (up to 4 source files) support for tasks on each Task Widget page (up to 4 pages), as well as support for auto sorting. Recommended to lock dashboard in reading mode via Current View plugin
+
+**Required plugins:**
+· Dataview (with JavaScript enabled)
+· QuickAdd 
+· Tasks
+· Completed Tasks
+· Current View
+
+
+**Required API:**
+· [OpenWeatherMap](https://openweathermap.org/api) (free API key needed for weather widget)
+
+</details>
+
 ## 🚀 More Coming Soon!
 
 
